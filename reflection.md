@@ -8,6 +8,13 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 - List at least two concrete bugs you noticed at the start  
   (for example: "the secret number kept changing" or "the hints were backwards").
 
+  1. it takes inputs beyond the input
+  2. the history is delayed when entering a number. It doesn't update the current number I put in, just the previous one
+  3. It gives me the answer and penalty when I have 1 chance left.
+  4. New Game button doesn't work
+  5. The input box says I can press enter to submit when not true; does not appear again after you enter an input
+  6. After I get penalty, it doesn't record another answer but will increase number of attempts
+
 ---
 
 ## 2. How did you use AI as a teammate?
