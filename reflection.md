@@ -8,12 +8,21 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 - List at least two concrete bugs you noticed at the start  
   (for example: "the secret number kept changing" or "the hints were backwards").
 
-  1. it takes inputs beyond the input
-  2. the history is delayed when entering a number. It doesn't update the current number I put in, just the previous one
+  1. it takes inputs beyond the input - attempts variable initializes to 1, not 0
+  2. the history is delayed when entering a number. It doesn't update the current number I put in, just the previous one - AI: banner subtracts attempt_limit - attempts
+
+  2. wrong hint when input wrong asnwer
   3. It gives me the answer and penalty when I have 1 chance left.
   4. New Game button doesn't work
   5. The input box says I can press enter to submit when not true; does not appear again after you enter an input
   6. After I get penalty, it doesn't record another answer but will increase number of attempts
+  
+  With AI:
+  7. Hard difficulty is easier than Normal difficulty in get_range_for_difficulty(difficulty) - CHOSEN PHASE 2
+  2. wrong hint when input wrong answer check_guess(guess, secret) - CHOSEN PHASE 2
+  8. update_score(current_score, outcome, attempt_number) rewards wrong guesses on even turns
+
+
 
 ---
 
